@@ -1,0 +1,20 @@
+KDE_Model("BSK")
+ {
+  Delta_R("BSK003_R",30,20);
+  R_Date("BSK003",708,21);
+  Delta_R("BSK007_R",30,20);
+  R_Date("BSK007",701,20);
+ };
+ KDE_Model("BD")
+ {
+  Delta_R("NAB003_R",30,20);
+  R_Date("NAB003", 632, 17);
+  Delta_R("NAB004_R",30,20);
+  R_Date("NAB004", 561, 20);
+  Delta_R("NAB005_R",30,20);
+  R_Date("NAB005", 612, 19);
+  Delta_R("TRP002_R",30,20);
+  R_Date("TRP002", 634, 22);
+  Delta_R("OSL1_R",30,20);
+  R_Date("OSL1", 679, 29);
+ };
