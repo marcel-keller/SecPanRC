@@ -1,0 +1,193 @@
+Sequence("S1")
+ {
+  C_Date("BD",AD(1350),2);
+  Boundary("T1");
+  Phase("P1")
+  {
+   Delta_R("MAN008_R",30,20);
+   R_Date("MAN008", 653, 22);
+   Delta_R("X3003_R",30,20);
+   R_Date("X3003", 315, 28);
+   Delta_R("OTE001_R",30,20);
+   R_Date("OTE001", 709, 24);
+   Sequence("S2")
+   {
+    Boundary("T2");
+    Phase("P2")
+    {
+     Sequence("S3")
+     {
+      Boundary("T3");
+      KDE_Plot("AHM")
+      {
+       Delta_R("AHM001_R",30,20);
+       R_Date("AHM001", 579, 25);
+       Delta_R("AHM011_R",30,20);
+       R_Date("AHM011", 616, 23);
+      };
+      Phase("P3")
+      {
+       Delta_R("MAL003_R",30,20);
+       R_Date("MAL003", 445, 24);
+       Delta_R("A1480x1480_R",30,20);
+       R_Date("A1480x1480", 680, 25);
+      };
+     };
+     Sequence("S4")
+     {
+      Boundary("T4");
+      Phase("P4")
+      {
+       Delta_R("STA001_R",30,20);
+       R_Date("STA001", 417, 42);
+       Sequence()
+       {
+        Boundary("T5");
+        Phase("P5")
+        {
+         KDE_Plot("CLP")
+         {
+          Delta_R("CLP015_R",30,20);
+          R_Date("CLP015", 505, 22);
+          Delta_R("CLP017_R",30,20);
+          R_Date("CLP017", 563, 25);
+         };
+         Sequence("S6")
+         {
+          Boundary("T6");
+          Phase("P6")
+          {
+           KDE_Plot("X52/A146x3011")
+           {
+            Delta_R("X52_R",30,20);
+            R_Date("X52", 454, 25);
+            Delta_R("A146x3011_R",30,20);
+            R_Date("A146x3011", 445, 25);
+           };
+           Sequence("S7")
+           {
+            Boundary("T7");
+            Phase("P7")
+            {
+            KDE_Plot("MAL")
+            {
+            Delta_R("MAL004_R",30,20);
+            R_Date("MAL004", 363, 25);
+            Delta_R("MAL007_R",30,20);
+            R_Date("MAL007", 351, 24);
+            };
+            Delta_R("NMS002_R",30,20);
+            R_Date("NMS002", 404, 26);
+            Delta_R("G488_R",30,20);
+            R_Date("G488", 353, 27);
+            Sequence("S8")
+            {
+            Boundary("T8");
+            Phase("P8")
+            {
+            Delta_R("ELW0098_R",30,20);
+            R_Date("ELW098", 350, 22);
+            Delta_R("AGU025_R",30,20);
+            R_Date("AGU025", 405, 18);
+            Sequence("S9")
+            {
+            KDE_Plot("LBG")
+            {
+            Delta_R("LBG005_R",30,20);
+            R_Date("LBG005", 367, 22);
+            Delta_R("LBG007_R",30,20);
+            R_Date("LBG007", 361, 22);
+            Delta_R("LBG002_R",30,20);
+            R_Date("LBG002", 358, 22);
+            };
+            Boundary("T9");
+            Phase("P9")
+            {
+            KDE_Plot("EMS")
+            {
+            Delta_R("EMS010_R",30,20);
+            R_Date("EMS010", 426, 22);
+            Delta_R("EMS001_R",30,20);
+            R_Date("EMS001", 411, 28);
+            Delta_R("EMS_17_R",30,20);
+            R_Date("EMS_17", 361, 22);
+            Delta_R("EMS_99A_R",30,20);
+            R_Date("EMS_99A", 360, 22);
+            };
+            KDE_Plot("STN")
+            {
+            Delta_R("STN001_R",30,20);
+            R_Date("STN001", 349, 30);
+            Delta_R("STN002_R",30,20);
+            R_Date("STN002", 327, 30);
+            Delta_R("STN005_R",30,20);
+            R_Date("STN005", 313, 30);
+            Delta_R("STN006_R",30,20);
+            R_Date("STN006", 351, 29);
+            Delta_R("STN011_R",30,20);
+            R_Date("STN011", 326, 33);
+            Delta_R("STN012_R",30,20);
+            R_Date("STN012", 367, 30);
+            Delta_R("STN_I_101_R",30,20);
+            R_Date("STN_I_101", 375, 37);
+            Delta_R("STN015_R",30,20);
+            R_Date("STN015", 334, 35);
+            Delta_R("STN017_R",30,20);
+            R_Date("STN017", 368, 35);
+            Delta_R("STN028_R",30,20);
+            R_Date("STN028", 326, 30);
+            Delta_R("STN030_R",30,20);
+            R_Date("STN030", 321, 18);
+            Delta_R("STN_II_107_R",30,20);
+            R_Date("STN_II_107", 369, 31);
+            Delta_R("STN031_R",30,20);
+            R_Date("STN031", 313, 18);
+            Delta_R("STN032_R",30,20);
+            R_Date("STN032", 343, 18);
+            };
+            };
+            };
+            Sequence("S10")
+            {
+            KDE_Plot("1A1_basal")
+            {
+            Delta_R("Gdansk8_R",30,20);
+            R_Date("Gdansk8", 443, 20);
+            Delta_R("AGU010_R",30,20);
+            R_Date("AGU010", 426, 19);
+            Delta_R("RUS003_R",30,20);
+            R_Date("RUS003", 381, 28);
+            Delta_R("RUS004_R",30,20);
+            R_Date("RUS004", 377, 27);
+            Delta_R("AGU007_R",30,20);
+            R_Date("AGU007", 353, 18);
+            };
+            Boundary("T10");
+            KDE_Plot("BED")
+            {
+            Delta_R("BED_8147_R",30,20);
+            R_Date("BED_8147", 442, 43);
+            Delta_R("BED_8198_R",30,20);
+            R_Date("BED_8198", 424, 39);
+            Delta_R("BED_8216_R",30,20);
+            R_Date("BED_8216", 370, 33);
+            Delta_R("BED_8219_R",30,20);
+            R_Date("BED_8219", 355, 31);
+            };
+            C_Date("GNW",AD(1710),1);
+            };
+            };
+            };
+            };
+           };
+          };
+         };
+        };
+       };
+      };
+     };
+    };
+   };
+  };
+  Boundary("E");
+ };
