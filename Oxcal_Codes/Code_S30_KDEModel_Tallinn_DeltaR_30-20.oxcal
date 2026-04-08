@@ -1,0 +1,17 @@
+KDE_Model(PRN)
+  {
+   Delta_R("PRN001_R",30,20);
+   R_Date("PRN001", 144, 24);
+   Delta_R("PRN003_R",30,20);
+   R_Date("PRN003", 87, 23);
+   Delta_R("PRN004_R",30,20);
+   R_Date("PRN004", 197, 26);
+   Delta_R("PRN005_R",30,20);
+   R_Date("PRN005", 72, 24);
+   Delta_R("PRN008_R",30,20);
+   R_Date("PRN008", 154, 25);
+   Delta_R("PRN009_R",30,20);
+   R_Date("PRN009", 222, 21);
+   Delta_R("PRN010_R",30,20);
+   R_Date("PRN010", 176, 25);
+};
