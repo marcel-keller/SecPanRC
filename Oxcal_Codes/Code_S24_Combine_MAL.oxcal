@@ -1,0 +1,48 @@
+Combine("MAL003R-MAL004R")
+ {
+  Delta_R("MAL003_R",30,20);
+  R_Date("MAL003R", 445, 24);
+  Delta_R("MAL004_R",30,20);
+  R_Date("MAL004R", 363, 25);
+ };
+ Combine("MAL003R-MAL004")
+ {
+  Delta_R("MAL003_R",30,20);
+  R_Date("MAL003R", 445, 24);
+  R_Date("MAL004", 363, 25);
+ };
+ Combine("MAL003-MAL004R")
+ {
+  R_Date("MAL003", 445, 24);
+  Delta_R("MAL004_R",30,20);
+  R_Date("MAL004R", 363, 25);
+ };
+ Combine("MAL003-MAL004")
+ {
+  R_Date("MAL003", 445, 24);
+  R_Date("MAL004", 363, 25);
+ };
+ Combine("MAL004R-MAL007R")
+ {
+  Delta_R("MAL004_R",30,20);
+  R_Date("MAL004R", 363, 25);
+  Delta_R("MAL007_R",30,20);
+  R_Date("MAL007R", 351, 24);
+ };
+ Combine("MAL004R-MAL007")
+ {
+  Delta_R("MAL004_R",30,20);
+  R_Date("MAL004R", 363, 25);
+  R_Date("MAL007", 351, 24);
+ };
+ Combine("MAL004-MAL007R")
+ {
+  R_Date("MAL004", 363, 25);
+  Delta_R("MAL007_R",30,20);
+  R_Date("MAL007R", 351, 24);
+ };
+ Combine("MAL004-MAL007")
+ {
+  R_Date("MAL004", 363, 25);
+  R_Date("MAL007", 351, 24);
+ };
